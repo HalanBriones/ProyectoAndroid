@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Fast Food</string>
+    <string name="tipo">Sandwiches</string>
+    <string name="sobrenosotros">Sobre Nosotros</string>
+    <string name="labelbarrosluco">Barros Luco</string>
+    <string name="labelitaliano">ITALIANO</string>
+    <string name="labelchacarero">Chacarero</string>
+    <string name="labelchemilico">Chemilico</string>
+    <string name="labelbarrosjarpa">Barros Jarpa</string>
+    <string name="sobrenosotrostexto">SOMOS UNA EMPRESA DE LA REGIÓN CON MAS DE 10 AÑOS DE EXPERIENCIA REALIZANDO SANDWICHES ! LOS MEJORES DE LA ZONA, SI NO CHORREA NO ES FAST FOOD</string>
+    <string name="chuitaliano">Churrasco Italiano</string>
+    <string-array name="italiano">
+        <item>Churrasco Italiano</item>
+        <item>churrascoitaliano.png</item>
+        <item>Este Sandwiche tiene carne de churrasco ademas ingredientes como palta,tomate y mayo</item>
+        <item>$3500</item>
+    </string-array>
+    <string-array name="Chacarero">
+        <item>Chacarero</item>
+        <item>chacarero.png</item>
+        <item>Este Sandwiche tiene carne de churrasco ademas ingredientes como porotos verdes,aji verde, tomate  y mayonesa</item>
+        <item>$4500</item>
+    </string-array>
+    <string-array name="BarrosLuco">
+        <item>Barros Luco</item>
+        <item>barrosluco.png</item>
+        <item>Este Sandwiche tiene carne de churrasco y queso</item>
+        <item>$2500</item>
+    </string-array>
+    <string-array name="Chemilico">
+        <item>Chemilico</item>
+        <item>chemilico.png</item>
+        <item>Este Sandwiche tiene carne de churrasco ademas ingredientes como cebolla frita y 1 huevo frito</item>
+        <item>$3000</item>
+    </string-array>
+    <string-array name="BarrosJarpa">
+        <item>Barros Jarpa</item>
+        <item>barrojarpa.png</item>
+        <item>Este Sandwiche tiene jamon y queso caliente</item>
+        <item>$1500</item>
+    </string-array>
+</resources>

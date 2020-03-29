@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorfondo"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/chuitaliano"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorbotones"
+            android:text="@string/labelitaliano"
+            android:textColor="@color/letrabotones"
+            android:textSize="25sp"
+            android:onClick="irItaliano">
+
+        </Button>
+
+        <Button
+            android:id="@+id/chacarero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorbotones"
+            android:text="@string/labelchacarero"
+            android:textColor="@color/letrabotones"
+            android:textSize="25sp"
+            android:onClick="irChacarero">
+
+        </Button>
+
+        <Button
+            android:id="@+id/barroslucos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorbotones"
+            android:text="@string/labelbarrosluco"
+            android:textColor="@color/letrabotones"
+            android:textSize="25sp"
+            android:onClick="irBarrosLuco">
+
+        </Button>
+
+        <Button
+            android:id="@+id/chemilico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorbotones"
+            android:text="@string/labelchemilico"
+            android:textColor="@color/letrabotones"
+            android:textSize="25sp"
+            android:onClick="irChemilico">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorbotones"
+            android:text="@string/labelbarrosjarpa"
+            android:textColor="@color/letrabotones"
+            android:textSize="25sp"
+            android:onClick="irBarrosJarpa">
+
+        </Button>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
